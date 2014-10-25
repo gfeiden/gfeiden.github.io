@@ -38,6 +38,16 @@ a {
   text-decoration:none;
 }
 
+a.social{
+  color: #393939;
+  font-size: 28px;
+  padding: 20px;
+}
+
+a.social:hover {
+  color: #39c;
+}
+
 a small {
   font-size:11px;
   color:#777;
