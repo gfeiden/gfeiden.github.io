@@ -297,7 +297,7 @@ a#nav:hover {
   }
   
   #nav {
-    display: inline;
+    display: block;
   }
 }
 
