@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:30px;
 }
 
 h2 {
@@ -177,10 +177,19 @@ header ul a strong {
   color:#222;
 }
 
+header p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 section {
   width:500px;
   float:right;
   padding-bottom:50px;
+}
+
+section p {
+    line-height: 1.5;
 }
 
 small {
@@ -206,7 +215,7 @@ footer {
 }
 
 a#nav {
-    font-size: 18px;
+    font-size: 16px;
     color: #494949;
     
     padding-top: 10px;
