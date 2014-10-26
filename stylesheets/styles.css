@@ -42,6 +42,10 @@ a:hover {
   color: #39c;
 }
 
+div.social {
+    text-align: center;
+}
+
 a.social{
   color: #393939;
   font-size: 24px;
@@ -195,6 +199,25 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+#nav {
+    display: inline-block;
+}
+
+a#nav {
+    font-size: 18px;
+    color: #494949;
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+
+a#nav:hover {
+    color: #39c;
 }
 
 @media print, screen and (max-width: 960px) {
