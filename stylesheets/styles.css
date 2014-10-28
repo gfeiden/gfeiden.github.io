@@ -34,7 +34,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
+  font-weight:300;
   text-decoration:none;
 }
 
@@ -227,6 +227,7 @@ footer a {
 
 a#nav {
     font-size: 16px;
+    font-weight: 400;
     color: #494949;
     
     padding-top: 10px;
