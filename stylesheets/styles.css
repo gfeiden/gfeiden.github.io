@@ -64,7 +64,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -114,7 +114,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:260px;
   float:left;
   position:fixed;
 }
@@ -183,7 +183,7 @@ header p {
 }
 
 section {
-  width:500px;
+  width: 590px;
   float:right;
   padding-bottom:50px;
 }
