@@ -245,6 +245,64 @@ a#nav:hover {
     color: #39c;
 }
 
+img.std {
+    position: relative;
+    float: left;
+    
+    width: 40%;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #393939;
+}
+
+@media print, screen and (max-height: 650px) {
+  
+  div.wrapper {
+    width: auto;
+    margin:0;
+  }
+  
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+  
+  header {
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+  
+  header a small {
+    display:inline;
+  }
+  
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+  
+  #nav {
+    display: inline;
+    text-align: center;
+  }
+  
+  img.std {
+    float: none;
+    width: 20%;
+  }
+  
+}
 
 @media print, screen and (max-width: 960px) {
   
@@ -285,6 +343,11 @@ a#nav:hover {
     display: inline;
     text-align: center;
   }
+  
+  img.std {
+    float: none;
+    width: 20%;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -311,6 +374,10 @@ a#nav:hover {
     word-wrap: normal;
   }
   
+  img.std {
+    float: none;
+    width: 70%;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -325,6 +392,11 @@ a#nav:hover {
   #nav {
     display: block;
   }
+  
+  img.std {
+    float:none;
+    width: 80%;
+  }
 }
 
 @media print {
@@ -333,4 +405,5 @@ a#nav:hover {
     font-size:12pt;
     color:#444;
   }
+  
 }
