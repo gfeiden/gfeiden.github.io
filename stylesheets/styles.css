@@ -3,8 +3,8 @@
 body {
   padding:50px;
   font:15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  color:#555;
+  font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,12 +34,13 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:300;
+  font-weight:normal;
   text-decoration:none;
 }
 
 a:hover {
   color: #39c;
+  text-decoration: underline;
 }
 
 div.social {
@@ -243,6 +244,7 @@ a#nav {
 
 a#nav:hover {
     color: #39c;
+    text-decoration: none;
 }
 
 img.header {
